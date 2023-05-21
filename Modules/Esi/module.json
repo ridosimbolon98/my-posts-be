@@ -1,0 +1,13 @@
+{
+    "name": "Esi",
+    "alias": "esi",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Esi\\Providers\\EsiServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

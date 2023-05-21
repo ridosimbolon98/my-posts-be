@@ -1,0 +1,26 @@
+### login user
+POST http://127.0.0.1/portal/public/api/login
+content-type: application/json
+Accept: application/json
+
+{
+    "email": "admin@mail.com",
+    "password": "rahasia"
+}
+
+### get data user logged
+GET http://127.0.0.1/portal/public/api/me
+Accept: application/json
+Authorization: Bearer zerfLkoDomdhh204pLo5XfRMhQH5asdxq9cGNnwV
+
+# 4438cb30088d816cdfb62c07d1f25658f0e4b4b6fb938d1839cac644f0ffce58
+### logout user
+GET http://127.0.0.1/portal/public/api/logout
+Accept: application/json
+Authorization: Bearer YPaexEEcGYnMrMGTSwjKHek1OZZB8AvewlKdjooJ
+
+
+### get data posts
+GET http://127.0.0.1/portal/public/api/posts
+Accept: application/json
+Authorization: Bearer YPaexEEcGYnMrMGTSwjKHek1OZZB8AvewlKdjooJ
